@@ -9,15 +9,15 @@
     <title>TBD</title>
 </head>
 <body>
-    <h1>Art Com's</h1>
-
-<form action="https://api.web3forms.com/submit" method="POST">
-  <input type="hidden" name="access_key" value="56023609-f2ed-4b78-be8d-ae15e0c0ea7d">
-  <input type="text" name="name" required>
-  <input type="email" name="email" required>
-  <textarea name="message" required></textarea>
-  <button type="submit">Submit</button>
-</form>
+    <h1>Art Commission's</h1>
+    <form action="form.php" method="POST">
+    <!--<form action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="56023609-f2ed-4b78-be8d-ae15e0c0ea7d">-->
+        <input type="text" name="name" required>
+        <input type="email" name="email" required>
+        <textarea name="message" required></textarea>
+        <button type="submit">Submit</button>
+    </form>
 
 
     <script src="script.js">//you better not write your code here you psychopath is this working</script>
